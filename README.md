@@ -1,10 +1,12 @@
 # Recipe Search App
 
-This app assists you finding recipes by executing searches by ingredients you'd like to use.
+This app assists you finding ingredient lists and calories for recipes by executing searches by ingredients you'd like to use.
 
 This app was created as a project for Secure Web App Development class.
 
 This app is designed to assist with receipe searches using an API at https://www.edamam.com/
+
+Eventually, this app will be able to email or text a user a list of the ingredients for a recipe they have chosen.
 
 Secure Web Development Project 2023
 
