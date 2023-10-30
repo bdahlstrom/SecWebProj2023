@@ -21,6 +21,18 @@ As a life-partner, I want to be able to efficiently find recipes so that I can s
 
 As a poor person, I want to be able to use the protein I have in my storage so that I don't waste food or money.
 
+# Mis-user stories
+
+As a threat actor, I want to be able to reroute those accessing recipes to my fake website so that I can get their information.
+
+# Getting Started
+
+From the search bar, type in whatever ingredient you're trying to use.
+
+For example, using a search for 'Asparagus' will get you recipes that include 'Asparagus.'  
+
+Default is set to 'Chicken.'
+
 
 # License
 
