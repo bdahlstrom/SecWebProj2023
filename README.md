@@ -10,7 +10,7 @@ Secure Web Development Project 2023
 
 # Installation
 
-From the file folder for application-project, run npm start.
+From application-project, run npm start to launch the application from your terminal.
 
 
 # User Stories
@@ -19,11 +19,11 @@ As a parent, I want to be able to get ideas for recipes quickly so that I can sp
 
 As a life-partner, I want to be able to efficiently find recipes so that I can spend less time fighting with my partner about what we are going to eat.
 
-As a poor person, I want to be able to use the protein I have in my storage so that I don't waste food or money.
+As a poor and hungry person, I want to be able to use the protein I have in my storage so that I don't waste food or money.
 
 # Mis-user stories
 
-As a threat actor, I want to be able to reroute those accessing recipes to my fake website so that I can get their information.
+As a threat actor, I want to be able to reroute those accessing recipes to my fake website using ARP cache-poisoning so that I can get user's information.
 
 # Getting Started
 
