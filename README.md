@@ -14,6 +14,10 @@ Secure Web Development Project 2023
 
 From application-project, run npm start to launch the application from your terminal.
 
+# MockUp
+
+![image](https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/360c95bf-1352-4546-959c-87040daefacb)
+
 
 # User Stories
 
