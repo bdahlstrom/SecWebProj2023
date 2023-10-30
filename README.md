@@ -18,6 +18,13 @@ From application-project, run npm start to launch the application from your term
 
 ![image](https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/360c95bf-1352-4546-959c-87040daefacb)
 
+# Architecture
+
+![image](https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/265430ce-e8d0-44c3-94cb-8aab69ee444d)
+
+
+
+
 
 # User Stories
 
