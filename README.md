@@ -31,7 +31,7 @@ From the search bar, type in whatever ingredient you're trying to use.
 
 For example, using a search for 'Asparagus' will get you recipes that include 'Asparagus.'  
 
-Default is set to 'Chicken.'
+Default is set to 'Beef.'
 
 
 # License
