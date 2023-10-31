@@ -24,8 +24,7 @@ From application-project, run npm start to launch the application from your term
 
 ![IMG_4610](https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/40b4c4ab-1186-41b2-8e86-5ec359f118f8)
 
-<img width="666" alt="Screenshot 2023-09-28 at 10 32 56 AM" src="https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/75a75ab4-9118-4edd-b84e-9f57295833d0">
-
+![IMG_4612](https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/ea5d1e9f-c11f-4e19-8c92-28e362ef7202)
 
 # User Stories
 
