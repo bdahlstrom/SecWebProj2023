@@ -6,7 +6,7 @@ This app was created as a project for Secure Web App Development class.
 
 This app is designed to assist with receipe searches using an API at https://www.edamam.com/
 
-Eventually, this app will be able to email or text a user a list of the ingredients for a recipe they have chosen.
+Eventually, this app will be able to email or text a user a list of the ingredients for a recipe they have chose, I hope!
 
 Secure Web Development Project 2023
 
@@ -14,16 +14,17 @@ Secure Web Development Project 2023
 
 From application-project, run npm start to launch the application from your terminal.
 
-# MockUp
+# MockUp (rough)
 
 ![image](https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/360c95bf-1352-4546-959c-87040daefacb)
 
-# Architecture
+# Architecture (rough)
 
 ![image](https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/265430ce-e8d0-44c3-94cb-8aab69ee444d)
 
+![IMG_4610](https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/40b4c4ab-1186-41b2-8e86-5ec359f118f8)
 
-
+<img width="666" alt="Screenshot 2023-09-28 at 10 32 56 AM" src="https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/75a75ab4-9118-4edd-b84e-9f57295833d0">
 
 
 # User Stories
