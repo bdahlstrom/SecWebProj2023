@@ -21,6 +21,8 @@ From application-project, run npm start to launch the application from your term
 
 # Architecture (rough)
 
+![image](https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/b2c1cab6-e427-43da-bbdc-75113fa1a6aa)
+
 ![image](https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/db9b5743-7700-4533-8b78-24f919c72a05)
 
 ![image](https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/7c444d80-ad17-4ad4-bb51-4ffa4d53fab4)
