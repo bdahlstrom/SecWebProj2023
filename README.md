@@ -16,15 +16,17 @@ From application-project, run npm start to launch the application from your term
 
 # MockUp (rough)
 
-![image](https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/360c95bf-1352-4546-959c-87040daefacb)
+![image](https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/888bb916-acc0-4330-bd45-219a5879e659)
+
 
 # Architecture (rough)
 
-![image](https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/265430ce-e8d0-44c3-94cb-8aab69ee444d)
+![image](https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/db9b5743-7700-4533-8b78-24f919c72a05)
 
-![IMG_4610](https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/40b4c4ab-1186-41b2-8e86-5ec359f118f8)
+![image](https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/7c444d80-ad17-4ad4-bb51-4ffa4d53fab4)
 
-![IMG_4612](https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/ea5d1e9f-c11f-4e19-8c92-28e362ef7202)
+
+
 
 # User Stories
 
