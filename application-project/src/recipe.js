@@ -10,6 +10,15 @@ const Recipe = ({title,calories,image,ingredients}) =>{
 					<li>{ingredient.text}</li> 
 				))} 
 			</ol> 
+			<body>
+				<button>
+					Email Ingredient List
+				</button>
+
+				<script src="script.js"></script>
+			</body>
+
+			
 			
 <p>Calories : {calories}</p> 
 
