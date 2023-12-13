@@ -2,12 +2,17 @@ import React, { useEffect, useState } from 'react'
 import './App.css'; 
 import Recipe from './recipe'; 
 
-const App = () => { 
+
+function App() {
+
 const APP_ID = "0b2bdffa"; 
 const APP_KEY = "2dea1eb59336a72b9ab887befd011ef1"; 
+
 const [recipes, setRecipes] = useState([]); 
 const [search, setSearch] = useState(""); 
 const [query, setQuery] = useState(" "); 
+
+
 useEffect(() => { 
 	getRecipes(); 
 }, [query]) 
@@ -21,36 +26,33 @@ const getRecipes = async () => {
 const updateSearch = e => { 
 	setSearch(e.target.value); 
 }; 
-const getSearch = e => { 
-	e.preventDefault(); 
-	setQuery(search); 
-	setSearch(""); 
+  const onSubmit = (e) => {
+    e.preventDefault();
+    getRecipeInfo();
+  };
 } 
 
-return ( 
-	<div className="App"> 
-	<form className="search-form" onSubmit={getSearch} > 
-		<input className="search-bar" type="text" value={search} 
-			onChange={updateSearch} /> 
-		<button className="search-button" type="submit" > 
-			Search Here 
-		</button> 
-	</form> 
-	<div className="recipes"> 
-		{recipes.map(recipe => ( 
-		<Recipe 
-			key={recipe.recipe.label} 
-			title={recipe.recipe.label} 
-			calories={recipe.recipe.calories} 
-			image={recipe.recipe.image} 
-			ingredients={recipe.recipe.ingredients} 
-		/> 
+return (
+  <div>
+    <h1 onClick={getRecipeInfo}>Recipe Search Tool</h1>
+    <form onSubmit={onSubmit}>
+      <input
+        className="input"
+        type="text"
+        placeholder="Enter an ingredient"
+        autoComplete="Off"
+        value={query}
+        onChange={(e) => setquery(e.target.value)}
+      />
+      <input type="submit" value="Search" />
+    </form>
 
-		))} 
-	</div> 
-
-	</div> 
-); 
+    <div>
+    {recipes.map((recipe) => {
+            return <p>{recipe["recipe"]["label"]}</p>;
+    </div>
+  </div>
+);
 } 
 
 export default App; 
