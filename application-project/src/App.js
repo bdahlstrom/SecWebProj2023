@@ -45,6 +45,14 @@ return (
         onChange={(e) => setquery(e.target.value)}
       />
       <input type="submit" value="Search" />
+      <select>
+        onChange={(e) => setHealth(e.target.value)}
+        <option value="alcohol-cocktail"
+        >
+          Alcohol-cocktail
+        </option>
+        
+      </select>
     </form>
 
     <div>
