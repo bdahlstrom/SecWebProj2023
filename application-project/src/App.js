@@ -106,7 +106,7 @@ return (
       </select>
     </form>
 
-    <div>
+    <div className="apprecipes">
     {recipes.map((recipe) => {
             return <p>{recipe["recipe"]["label"]}</p>;
     </div>
