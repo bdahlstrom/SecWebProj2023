@@ -15,13 +15,13 @@
   align-items: center; 
   } 
 
-  .search-bar{ 
-  width: 50%; 
-  border:5px black; 
-  padding: 10px; 
-  border-radius: 5px; 
-  box-shadow: 5px 10px #91939b; 
-  } 
+  .input {
+    padding: 6px 16px;
+    min-width: 200px;
+    max-width: 100vw;
+    font-size: 15px;
+  }
+ 
 
   .search-button{ 
   background: #080707; 
@@ -36,10 +36,16 @@
   .search-button:hover { 
   background-color:#7d5c5c ; 
   } 
-  
+
   .recipes{ 
   display: flex; 
   justify-content: space-around; 
   flex-wrap: wrap; 
   } 
   
+  .app__healthdropdown {
+    padding: 7px 8px;
+    margin-left: 6px;
+    border-radius: 4px;
+    
+  }

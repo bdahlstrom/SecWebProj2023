@@ -45,13 +45,64 @@ return (
         onChange={(e) => setquery(e.target.value)}
       />
       <input type="submit" value="Search" />
-      <select>
+      <select className="app__healthdropdown">
         onChange={(e) => setHealth(e.target.value)}
-        <option value="alcohol-cocktail"
-        >
-          Alcohol-cocktail
-        </option>
-        
+          <option 
+            value="alcohol-cocktail"
+            >
+              alcohol-cocktail
+          </option>
+          <option 
+            value="alcohol-free"
+            >
+              alcohol-free
+          </option>
+          <option 
+            value="celery-free"
+            >
+              celery-free
+          </option>
+          <option 
+            value="crustacean-free"
+            >
+              crustacean-free
+          </option>
+          <option 
+            value="dairy-free"
+            >
+              dairy-free
+          </option>
+          <option 
+            value="DASH"
+            >
+              DASH
+          </option>
+          <option 
+            value="egg-free"
+            >
+              egg-free
+          </option>
+          <option 
+            value="fish-free"
+            >
+              fish-free
+          </option>
+          <option 
+            value="fodmap-free"
+            >
+              fodmap-free
+          </option>
+          <option 
+            value="gluten-free"
+            >
+              gluten-free
+          </option>
+          <option 
+            value="vegetarian"
+            >
+              vegetarian
+          </option>
+
       </select>
     </form>
 
