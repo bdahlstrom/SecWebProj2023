@@ -4,7 +4,7 @@ This app assists you finding recipes by executing searches by ingredients you'd 
 
 This app was created as a project for Secure Web App Development class.
 
-This app is designed to assist with receipe searches using an API at https://www.edamam.com/
+This app is designed to assist with receipe searches using an API at https://www.edamam.com/.  You'll want to register at that website to receive your own App ID and App Key for your deployment.
 
 This app also utilized Firebase (https://firebase.google.com) for build deployment.
 
