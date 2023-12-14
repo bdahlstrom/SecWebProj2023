@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1 onClick={getRecipeInfo}>Food Recipe Plaza 🍔</h1>
+      <h1 onClick={getRecipeInfo}>Let's eat! - Recipe Search</h1>
       <form className="app-searchForm" onSubmit={onSubmit}>
         <input
           className="app-input"
