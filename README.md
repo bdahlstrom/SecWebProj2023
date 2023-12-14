@@ -72,9 +72,8 @@ And your website is live!
 
 ![image](https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/da0329c0-ab4d-480d-949a-5a563968db1f)
 
+![image](https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/94518780-d504-4928-bc47-b2d92bc72681)
 
-
-![image](https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/db9b5743-7700-4533-8b78-24f919c72a05)
 
 ![image](https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/7c444d80-ad17-4ad4-bb51-4ffa4d53fab4)
 
