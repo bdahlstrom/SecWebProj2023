@@ -32,12 +32,21 @@ To install Firebase CLI:
 
     npm install -g firebase-tools
 
-You'll need a production build:
+You'll need a production build for deployment.
 
-    For production build: npm run build
-    Set up an account and project at https://firebase.google.com.
-    To setup for deployment:  firebase login
-                      Also :  firebase init
+For production build: 
+
+    npm run build
+    
+Set up an account and project at https://firebase.google.com.
+
+To setup for deployment:  
+    
+    firebase login
+                      
+Also :  
+    
+    firebase init
 
 Firebase:
 
