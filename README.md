@@ -70,7 +70,8 @@ And your website is live!
 
 # Architecture 
 
-![image](https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/05025775-a254-4a79-8f38-8c25c1337649)
+![image](https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/da0329c0-ab4d-480d-949a-5a563968db1f)
+
 
 
 ![image](https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/db9b5743-7700-4533-8b78-24f919c72a05)
