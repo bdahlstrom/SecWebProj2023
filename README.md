@@ -12,7 +12,7 @@ Secure Web Development Project 2023
 
 # Installation
 
-From application-project (root), run the below
+From application-project (root), run the below.
 
 To install Axios, the HTML library used:  
     
@@ -22,10 +22,15 @@ To launch from your terminal to your local network:
 
     npm start
 
-To deploy, you can utilize the following commands:
+To deploy, you can utilize the following commands.
+
+To install Firebase for use in deployment:  
+
+    npm install firebase
     
-    To install Firebase, for use in deployment:  npm install firebase
-    To install Firebase CLI:  npm install -g firebase-tools
+To install Firebase CLI:  
+
+    npm install -g firebase-tools
 
 You'll need a production build:
 
