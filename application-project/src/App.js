@@ -102,7 +102,7 @@ function App() {
 
       <div className="app-recipes">
         {recipes.map((recipe) => {
-            return <RecipeGrid recipe={recipe}/>;
+            return <RecipeGrid recipe={recipe} />;
           })}
       </div>
     </div>

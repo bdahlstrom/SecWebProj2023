@@ -1,21 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); 
+ 
 
-.recipe{ 
-	border-radius: 10px; 
-	box-shadow: 0px 5px 20px rgb(239, 3, 3); 
-	margin: 20px; 
-	display: flex; 
-	flex-direction: column; 
-	justify-content: space-around; 
-	background-image: linear-gradient(to right, 
-		#e4afcb 0%, #32d532 0%, #358b35 0%, 
-		#e2c58b 30%, #6b8b02 64%, #3d4b4b 100%); 
-	align-items: center; 
-	min-width: 40%; 
-	font-family: 'serif', cursive; 
-} 
-
-.image{ 
-	border-radius: 10px; 
-	margin:0px 0px 20px 0px; 
-} 
+.recipeGrid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .recipeGrid-img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .recipeGrid-name {
+    max-width: 200px;
+    text-align: center;
+    margin: 12px 0px;
+  }
