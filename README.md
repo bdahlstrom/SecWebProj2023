@@ -12,10 +12,15 @@ Secure Web Development Project 2023
 
 # Installation
 
-From application-project (root), run the following:
+From application-project (root), run the below
 
-    To install Axios, the HTML library used:  npm install axios
-    To launch from your terminal to your local network:  npm start
+    To install Axios, the HTML library used:  
+    
+    npm install axios
+    
+    To launch from your terminal to your local network:  
+    
+    npm start
 
 To deploy, you can utilize the following commands:
     
