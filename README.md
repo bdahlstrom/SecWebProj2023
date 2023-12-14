@@ -46,7 +46,8 @@ And your website is live!
 
 # MockUp
 
-![image](https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/888bb916-acc0-4330-bd45-219a5879e659)
+![image](https://github.com/bdahlstrom/SecWebProj2023/assets/144755717/09590a03-8e4c-4170-9e44-ee45f02f0882)
+
 
 
 # Architecture 
