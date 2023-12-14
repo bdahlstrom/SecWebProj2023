@@ -1,12 +1,12 @@
-import Axios from "axios";
 import { useState } from "react";
+import Axios from "axios";
 import "./App.css";
 import RecipeTile from "./recipe";
 
 function App() {
-  const [query, setquery] = useState("");
-  const [recipes, setrecipes] = useState([]);
-  const [healthLabel, sethealthLabel] = useState("alcohol-cocktail");
+  const [query, setQuery] = useState("");
+  const [recipes, setRecipes] = useState([]);
+  const [healthLabel, setHealthLabel] = useState("alcohol-cocktail");
 
   const YOUR_APP_ID = `0b2bdffa`;
   const YOUR_APP_KEY = "2dea1eb59336a72b9ab887befd011ef1";
@@ -15,7 +15,7 @@ function App() {
 
   const getRecipeInfo = async () => {
     var result = await Axios.get(url);
-    setrecipes(result.data.hits);
+    setRecipes(result.data.hits);
     console.log(result.data.hits);
   };
 
@@ -27,19 +27,19 @@ function App() {
   return (
     <div className="app">
       <h1 onClick={getRecipeInfo}>Food Recipe Plaza 🍔</h1>
-      <form className="app__searchForm" onSubmit={onSubmit}>
+      <form className="app-searchForm" onSubmit={onSubmit}>
         <input
-          className="app__input"
+          className="app-input"
           type="text"
-          placeholder="enter ingredient"
+          placeholder="Enter Ingredient Here"
           autoComplete="Off"
           value={query}
-          onChange={(e) => setquery(e.target.value)}
+          onChange={(e) => setQuery(e.target.value)}
         />
-        <input className="app__submit" type="submit" value="Search" />
+        <input className="app-submit" type="submit" value="Search" />
 
-        <select className="app__sethealthLabels">
-          onChange={(e) => sethealthLabel(e.target.value)}
+        <select className="app-setHealthLabels">
+          onChange={(e) => setHealthLabel(e.target.value)}
           <option 
             value="alcohol-cocktail"
             >
@@ -95,14 +95,14 @@ function App() {
             >
               vegetarian
           </option>
-          
+
         </select>
 
       </form>
 
-      <div className="app__recipes">
+      <div className="app-recipes">
         {recipes.map((recipe) => {
-            return <RecipeTile recipe={recipe}/>;
+            return <RecipeGrid recipe={recipe}/>;
           })}
       </div>
     </div>
