@@ -48,10 +48,9 @@ Also :
     
     firebase init
 
-Firebase:
+Choose hosting only by using the up and down keys in the terminal and choosing 'hosting' with the space-bar (the circle will fill-in with color), then press enter.
 
-    Choose hosting only by using the up and down keys in the terminal and choosing 'hosting' with the space-bar (the circle will fill-in with color), then press enter.
-    Chose 'N' when asked about overwriting information.
+Chose 'N' when asked about overwriting information.
 
 Deployment:
 
